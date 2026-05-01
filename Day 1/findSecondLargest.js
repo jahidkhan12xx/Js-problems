@@ -8,7 +8,7 @@ const findSecondLargest = (arr) => {
     if (num > largest) {
       secondLargest = largest;
       largest = num;
-    } else if (num > secondLargest && num !== largest) {
+    } else if (num > secondLargest) {
       secondLargest = num;
     }
   }
