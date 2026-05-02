@@ -11,3 +11,7 @@ for (let char of str) {
 }
 
 console.log(count);
+
+const countVowel = str.split("").filter((char) => vowel.includes(char)).length;
+
+console.log(countVowel);
